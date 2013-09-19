@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray" >
+
+    <EditText
+        android:id="@+id/txtPlayer3"
+        style="@style/EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtPlayer1"
+        android:layout_below="@+id/txtPlayer1"
+        android:layout_marginTop="77dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Player 3" />
+
+    <EditText
+        android:id="@+id/txtPlayer4"
+        style="@style/EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtPlayer1"
+        android:layout_below="@+id/txtPlayer3"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Player 4" />
+
+    <EditText
+        android:id="@+id/txtPlayer2"
+        style="@style/EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtPlayer3"
+        android:layout_alignLeft="@+id/txtPlayer3"
+        android:layout_marginBottom="33dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Player 2" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtPlayer1"
+        style="@style/EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Player 1" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        style="@style/ButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btngreen"
+        android:text="SEND REQUESTS" />
+
+    <ImageView
+        android:id="@+id/iconmonop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/iconm" />
+
+</RelativeLayout>

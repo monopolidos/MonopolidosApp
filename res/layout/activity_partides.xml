@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentLayoutPartides"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".PartidesActivity" >
+    
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        style="@style/navbar_button"
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/navbar_background"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/btnAdd"
+            style="@style/navbar_button"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/navbar_add"
+            android:text="NEW GAME" />
+        
+        <RadioButton
+            android:id="@+id/btnOptions"
+            style="@style/navbar_button"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/navbar_options"
+            android:text="OPTIONS" />
+        
+        <RadioButton
+            android:id="@+id/btnLogout"
+            style="@style/navbar_button"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/navbar_logout"
+            android:text="LOGOUT" />
+
+    </RadioGroup>
+
+</RelativeLayout>
